@@ -9,6 +9,8 @@ public class App {
         frmOperaciones fOperaciones = new frmOperaciones();
         ControladorfrmOperaciones controlador =  new ControladorfrmOperaciones(operacion, fOperaciones);
         controlador.iniciar();
+        
+        System.out.println("f");
 
     }
     
