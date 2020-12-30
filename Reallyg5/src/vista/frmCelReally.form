@@ -133,12 +133,18 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="fondInfe" max="32767" attributes="0"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                       <Component id="btnIngresar" min="-2" pref="183" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   </Group>
               </Group>
@@ -181,6 +187,9 @@
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                       <Component id="btnIngresar" pref="48" max="32767" attributes="0"/>
                       <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       <Component id="fondInfe" min="-2" pref="136" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
@@ -333,6 +342,7 @@
               </AuxValues>
             </Component>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <Component class="javax.swing.JButton" name="jButton1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -340,6 +350,8 @@
                 </Property>
               </Properties>
 =======
+=======
+>>>>>>> Stashed changes
             <Component class="javax.swing.JButton" name="btnIngresar">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -349,6 +361,9 @@
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
               </AuxValues>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             </Component>
           </SubComponents>

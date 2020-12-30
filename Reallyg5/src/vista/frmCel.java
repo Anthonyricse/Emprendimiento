@@ -58,13 +58,19 @@ public class frmCel extends javax.swing.JFrame {
 
         btnReally.setIcon(new javax.swing.ImageIcon(getClass().getResource("/botones/realy.JPG"))); // NOI18N
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
         btnReally.setBorder(null);
         btnReally.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnReallyActionPerformed(evt);
             }
         });
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         jPanel1.add(btnReally, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 460, 50, 50));
 

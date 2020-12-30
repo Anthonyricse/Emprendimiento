@@ -43,7 +43,11 @@ public class frmCelReally extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         txtPassword = new javax.swing.JPasswordField();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jButton1 = new javax.swing.JButton();
+=======
+        btnIngresar = new javax.swing.JButton();
+>>>>>>> Stashed changes
 =======
         btnIngresar = new javax.swing.JButton();
 >>>>>>> Stashed changes
@@ -131,7 +135,11 @@ public class frmCelReally extends javax.swing.JFrame {
         });
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/botones/ingresar.JPG"))); // NOI18N
+=======
+        btnIngresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/botones/ingresar_1.JPG"))); // NOI18N
+>>>>>>> Stashed changes
 =======
         btnIngresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/botones/ingresar_1.JPG"))); // NOI18N
 >>>>>>> Stashed changes
@@ -155,10 +163,14 @@ public class frmCelReally extends javax.swing.JFrame {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtEmail)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             .addComponent(txtPassword, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(53, 53, 53)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)))
+=======
+                            .addComponent(txtPassword, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE))))
+>>>>>>> Stashed changes
 =======
                             .addComponent(txtPassword, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE))))
 >>>>>>> Stashed changes
@@ -167,11 +179,17 @@ public class frmCelReally extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(fondInfe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(54, 54, 54)
                 .addComponent(btnIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
         jPanel2Layout.setVerticalGroup(
@@ -203,6 +221,9 @@ public class frmCelReally extends javax.swing.JFrame {
                 .addGap(28, 28, 28)
                 .addComponent(btnIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 48, Short.MAX_VALUE)
                 .addGap(31, 31, 31)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 .addComponent(fondInfe, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -233,15 +254,21 @@ public class frmCelReally extends javax.swing.JFrame {
 
     private void txtPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPasswordActionPerformed
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         // TODO add your handling code here:
     }//GEN-LAST:event_txtPasswordActionPerformed
 =======
+=======
+>>>>>>> Stashed changes
         // TODO add your handling code here:
     }//GEN-LAST:event_txtPasswordActionPerformed
 
     private void txtEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEmailActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtEmailActionPerformed
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     /**
