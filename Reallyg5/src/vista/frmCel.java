@@ -37,6 +37,7 @@ public class frmCel extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setIconImages(null);
+        setLocationByPlatform(true);
         setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
@@ -56,11 +57,11 @@ public class frmCel extends javax.swing.JFrame {
         btnGoogle.setBorder(null);
         jPanel1.add(btnGoogle, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 460, 50, -1));
 
-        btnReally.setIcon(new javax.swing.ImageIcon(getClass().getResource("/botones/Really.JPG"))); // NOI18N
+        btnReally.setIcon(new javax.swing.ImageIcon(getClass().getResource("/botones/realy.JPG"))); // NOI18N
         jPanel1.add(btnReally, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 460, 50, 50));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/fondo_1.JPG"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 46, 277, 478));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 277, 478));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
