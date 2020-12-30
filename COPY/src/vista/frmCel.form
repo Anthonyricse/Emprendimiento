@@ -110,12 +110,9 @@
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/botones/realy.JPG"/>
-<<<<<<< Updated upstream
-=======
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="null"/>
->>>>>>> Stashed changes
             </Property>
           </Properties>
           <Events>
@@ -138,7 +135,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="40" width="277" height="478"/>
+              <AbsoluteConstraints x="10" y="46" width="277" height="478"/>
             </Constraint>
           </Constraints>
         </Component>
