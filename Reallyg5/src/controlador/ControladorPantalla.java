@@ -13,12 +13,11 @@ import sistema.Datos;
 public class ControladorPantalla {
 
     private frmCel vista;
-    private UsuarioArreglo modelo;
-    public ControladorPantalla(frmCel vista,UsuarioArreglo modelo) {
-        this.vista = vista;
-        this.modelo = modelo;
-        
-        
+    
+ 
+
+    public ControladorPantalla(frmCel fcel) {
+
         this.vista.btnReally.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -31,12 +30,14 @@ public class ControladorPantalla {
             }
         });
     }
-    
 
-     public void iniciar(){
-        this.vista.setLocationRelativeTo(null);
-        this.vista.setVisible(true);
+    public void iniciar() {
+            this.vista.setLocationRelativeTo(null);
+        this.vista.setVisible(true);    }
     }
     
+
+   
     
-}
+    
+

@@ -10,7 +10,8 @@ public class app {
                
        
         frmCel fcel = new frmCel();
-        ControladorPantalla ControlaPant = new ControladorPantalla(fcel, user);
+          ControladorPantalla ControlaPant = new ControladorPantalla(fcel);
         ControlaPant.iniciar();
+      
     }
 }
