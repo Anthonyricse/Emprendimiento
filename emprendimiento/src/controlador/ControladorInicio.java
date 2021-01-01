@@ -8,6 +8,7 @@ import javax.swing.JOptionPane;
 import modelo.UsuarioArreglo;
 import vista.frmEleccion;
 import vista.frmInicio;
+import vista.frmPrueba;
 
 public class ControladorInicio {
     private UsuarioArreglo modelo;
@@ -22,8 +23,9 @@ public class ControladorInicio {
             public void actionPerformed(ActionEvent e) {
                 if(modelo.ingresar(vista.txtEmail.getText(), vista.txtPassword.getText())){
                     vista.dispose();
-                    frmEleccion feleccion = new frmEleccion();
-                    ControladorEleccion controla =new  ControladorEleccion(sistema.usuarios, feleccion);
+                    frmEleccion feleccion =new frmEleccion();
+                    ControladorService controla = new ControladorService(sistema.usuarios, feleccion);
+                    controla.iniciar();
                 }else{
                     JOptionPane.showMessageDialog(vista, "Error en el ingreso");
                 }

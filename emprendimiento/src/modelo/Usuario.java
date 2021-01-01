@@ -15,7 +15,7 @@ public class Usuario {
         this.password = password;
         this.conectado = Boolean.FALSE;
     }
-    
+  
     public boolean isConectado (){
         return this.conectado;
     } 
