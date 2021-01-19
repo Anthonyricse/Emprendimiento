@@ -5,7 +5,7 @@ public class Usuario {
      private String email;
     private String password;
     private Boolean conectado;
-  //  private Tarjeta tarjeta; 
+   private Tarjeta tarjeta; 
   //  private Boolean tarjetConect; 
     private String edad ; 
     
@@ -23,6 +23,11 @@ public class Usuario {
         this.email = email;
         this.password = password;
         this.conectado = Boolean.FALSE;  
+        this.tarjeta = tarjeta;
+    }
+
+    public String getClave() {
+        return tarjeta.getClave();
     }
     public boolean isConectado (){
         return this.conectado;
@@ -50,6 +55,7 @@ public class Usuario {
             this.conectado = Boolean.TRUE;
         }        return result;
     }
+
     public boolean salir(){
         boolean result = false;
         if(isConectado()){
@@ -58,4 +64,11 @@ public class Usuario {
         }
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "email=" + email + ", password=" + password + ", conectado=" + conectado ;
+    }
+    
+   
 }

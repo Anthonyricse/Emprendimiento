@@ -24,11 +24,11 @@ public class TarjetaArreglo{
     }
     
     
-    public boolean add( Tarjeta t){
+    public boolean add( Tarjeta o){
         boolean result = false;
     
         if(this.indice< this.tarjetas.length){
-            this.tarjetas[this.indice] = t;
+            this.tarjetas[this.indice] = o;
             this.indice++;
            result = true;
         
@@ -37,6 +37,20 @@ public class TarjetaArreglo{
         return result; 
         
     }
+     public Tarjeta getTarjetaxClave(String clave){
+    Tarjeta result = null;
+    for(int i =  0 ; i<this.indice ; i++ ){
+           if(this.tarjetas[i].getNombre().equalsIgnoreCase(clave)){            
+           result =  this.tarjetas[i] ;
+           break;       
+        }  
+    }     
+       return result ;     
+    }
+        
+        
+    
+   
     public void gastar(int gasto){
        this.dinero -= gasto ;      
     }
@@ -58,6 +72,15 @@ public class TarjetaArreglo{
                 result = true;
                 break;
             }
+        }
+        return result;
+    }
+     @Override
+    public String toString() {
+        String result = "ArregloTarjetas\n ";
+       
+        for(int i =0 ; i>this.indice ; i ++){
+              result +=  this.tarjetas[i] + "\n";  
         }
         return result;
     }

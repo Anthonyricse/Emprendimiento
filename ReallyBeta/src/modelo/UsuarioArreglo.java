@@ -39,6 +39,17 @@ public class UsuarioArreglo {
         }
         return result;
     }
+ 
+
+    @Override
+    public String toString() {
+        String result = "ArregloUsuario\n ";
+       
+        for(int i =0 ; i>this.indice ; i ++){
+              result +=  this.usuarios[i] + "\n";  
+        }
+        return result;
+    }
 
    
   

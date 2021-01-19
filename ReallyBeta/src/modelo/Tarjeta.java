@@ -7,12 +7,14 @@ public class Tarjeta {
     private String clave;
     private int dinero;
     private Boolean Conect;
-    
-    public Tarjeta( String clave) {
+    Datos dato;
+
+    public Tarjeta(String clave, Datos dato) {
         this.nombre = nombre;
         this.clave = clave;
-        this.dinero = 580; 
-        this.Conect=Boolean.FALSE;
+        this.dinero = 580;
+        this.Conect = Conect;
+        this.dato = dato;
     }
     
     public boolean isConect(){
@@ -25,6 +27,22 @@ public class Tarjeta {
        this.dinero -= gasto ; 
        
     }
+
+    public String getClave() {
+        return clave;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDato() {
+        return dato.getNombre();
+    }
+
+ 
+    
+    
     public String getDinero(){
         String cambio = String.valueOf(dinero);
        
@@ -39,5 +57,11 @@ public class Tarjeta {
             this.Conect = Boolean.TRUE;
         }        return result;
     }
+       @Override
+    public String toString() {
+        return  "clave=" + clave + ", dato=" + getDato() +  "["+dato+"]" ;
+    }
+  
+
     
 }

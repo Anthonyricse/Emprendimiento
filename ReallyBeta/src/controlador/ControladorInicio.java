@@ -22,8 +22,11 @@ public class ControladorInicio {
         this.vista.btnIngresar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+              
                 if(modelo.ingresar(vista.txtEmail.getText(), vista.txtPassword.getText())){
                     vista.dispose();
+                     System.out.println(sistema.usuarios);
+                     System.out.println("Conectado");
                     frmEleccion feleccion =new frmEleccion();
                     ControladorService controla = new ControladorService(sistema.usuarios, feleccion);
                     controla.iniciar();
